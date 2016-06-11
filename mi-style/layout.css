@@ -1,26 +1,64 @@
 /*
-* MI Grid Version 1.0
-* Copyright 2014, Muhammad Idrees
+* MI Grid Version 2.0
+* Copyright 2016, Muhammad Idrees
 * www.midexigner.com
-* 28/November/2014
-*  License: none (public domain)
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 11/June/2016
 */
 
 
 /* Table of Content
 ==================================================
+	#Reset Css
 	#Site Styles
 	#Page Styles
 	#Media Queries
 	#Font-Face */
 
-/* COLORS
-	- default body text  #ffffcc
-	- subtitle h2 text   #ff9900
-	- form input borders #cc9933
-	- default p text     #f0f0f0
-	- pre borders        #ffff99
-*/
+
+/* #Reset Css
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 17.5px;
+	font-style: italic;
+}
+blockquote p: before {
+	color: rgb(240, 240, 240);
+	color: rgba(244, 244, 244, 0.65);
+	font-family: "FontAwesome", serif;
+	position: absolute;
+	line-height: 60px;
+	font-size: 100px;
+	z-index: -1;
+	left: -80px;
+	top: 0px;
+	content: '\f10d';
+}
+blockquote p {
+	font-size: 24px !important;
+}
+blockquote: before, blockquote: after, q: before, q: after {
+	content: '';
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /* #Site Styles
 ================================================== */
