@@ -70,8 +70,8 @@ $("img").mousedown(function(){
 /* Copyright Year
 ========================================================*/
 
-// document.getElementById("footer").innerHTML =
-// "<p><small>&copy;  " + new Date().getFullYear() + "</small>" + " All rights reserved.</p>";
+document.getElementById("footer").innerHTML =
+ "<p><small>&copy;  " + new Date().getFullYear() + "</small>" + " All rights reserved.</p>";
 
 
 

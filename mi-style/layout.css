@@ -70,7 +70,274 @@ body{
 -o-user-select: none;
 user-select: none;
 }
+.header{ 
+	background-color: transparent; 
+	border:none;}
+.logo a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d0ccc1;
+}
+.hero-unit{
+ 	background-color: #34495e;
+ 	border-radius: 0px;
+ 	padding: 0px;
+ 	padding-top: 22px;
+}
+.hero-unit h1{
+	padding-top: 112px;
+	font-weight: 900;
+	font-size: 2.875rem;
+    line-height: 3.125rem;
+    color: #d0ccc1;
+    margin: 0px auto;
+}
+.hero-unit p{color: #d0ccc1; padding-top: 33px; padding-bottom: 48px;}
+.hero-unit a.btn-white{
+	padding: 12px 31px;
+    color: #313131;
+    background-color: #f2f2f2;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
 
+}
+.hero-unit a.btn-white:hover{background-color: #d0ccc1;}
+.phone {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    border-radius: 20px 20px 0 0;
+    height: 360px;
+    margin-top: 90px;
+    padding: 29px 20px 0;
+    position: relative;
+    
+}
+.phone-inner:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #111;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -5px;
+    border-radius: 100%;
+}
+.phone-inner {
+    background: url(../mi-img/tourly.jpg) 0 0 no-repeat #111;
+    background-size: cover;
+    display: block;
+    cursor: pointer;
+    height: 330px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.phone-inner:hover{
+
+     background-position: center bottom; 
+    -webkit-transition: all 5s linear 0s;
+    -moz-transition: all 5s linear 0s;
+    -o-transition: all 5s linear 0s;
+    transition: all 5s linear 0s;
+
+}
+.sr {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+#powerful-features{ padding-top: 50px;}
+#powerful-features h2{
+	font-size: 24px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+#powerful-features p{ padding-top: 15px; font-weight: 300; font-size: 16px;}
+.services{ padding-top: 50px;}
+.features_icon {float: left;padding-right: 15px;
+    }
+.features_icon .icon-simple:before {
+    background: url(../mi-img/simple.png)no-repeat;
+}
+.features_icon .icon:before {
+    content: "";
+    width: 51px;
+    height: 27px;
+    margin: 0px auto;
+    display: block;
+}
+.features_icon .icon-beautiful:before {
+    background: url(../mi-img/beautiful.png)no-repeat;
+}
+
+.features-text{ display: block; vertical-align: top; }
+.features-text h3{
+    font-size: 24px; 
+    font-weight: 600; 
+    text-transform: uppercase;
+}
+.features-text p{display: inline-block; padding-top: 10px;}
+
+#fearured-showcase{ padding-top: 50px;}
+#fearured-showcase h2{
+	font-size: 24px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+#fearured-showcase p{ padding-top: 15px; font-weight: 300; font-size: 16px;}
+.showcase-holder {
+    display: block;
+    overflow: hidden;
+}
+.showcase-item{
+	display: block;
+    background: #dddddd;
+    position: relative;
+    max-width: 100%;
+    margin: 24px;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px #e4e4e4;
+}
+.showcase-item .circles {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.showcase-item .circles span {
+    float: left;
+    background: #bbbbbb;
+    width: 4px;
+    height: 4px;
+    margin-top: 2px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+.showcase-item .site-title {
+    display: block;
+    color: #999999;
+    font-size: 0.9em;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: -1px 1px 0px #eeeeee;
+    margin: 0px;
+    padding: 0px;
+}
+.showcase-item .information {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.feature-img {
+    display: block;
+    line-height: 0;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px auto 0px;
+    overflow: hidden;
+}
+.showcase-item .info-holder {
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
+    transition: all .25s;
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+}
+.showcase-item .info-holder .info {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    margin-top: -12px;
+}
+.showcase-item .info-holder .btn {
+    display: inline;
+    font-size: 0.8em;
+}
+.showcase-item a.btn{
+    display: inline-block;
+    background-color: #acc32f;
+    position: relative;
+    top: -2px;
+    color: #EEEEEE;
+    font-family: 'Proxima Semibold';
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9em;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 12px 0px;
+    padding: 12px 24px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 24px;
+    box-shadow: 0px 3px 0px #93a91c;
+    border: none;
+    -webkit-appearance: none;
+}
+.showcase-item a.btn:hover{
+    top: 0px;
+    color: #FFFFFF;
+    background-color: #93a91c;
+    text-decoration: none;
+    box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .2);
+    -webkit-appearance: none;
+}
+.showcase-item a.btn.left-btn {
+    padding-right: 18px;
+    border-radius: 24px 0px 0px 24px;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+.showcase-item a.btn.right-btn {
+    margin-right: 0px;
+    padding-left: 18px;
+    border-left: none;
+    border-radius: 0px 24px 24px 0px;
+}
+.showcase-item .showcase-item .info-holder .btn {
+    display: inline;
+    font-size: 0.8em;
+}
+.showcase-item .info-holder:hover {
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+}
+#subscribe{
+    background-color: #34495e;
+    padding:50px;
+}
+#subscribe h3{
+    color: #d0ccc1;
+    padding-bottom: 22px;
+}
+#subscribe #subscribeemail{ width: 65%; border-radius: 0px; background-color: rgba(255,255,255,.2); border-color:transparent; color: rgba(255,255,255,.9); text-transform: uppercase;}
+#subscribe .mi-blue{    
+    text-transform: uppercase;
+    background-color: #0099d3 !important;
+    margin-left: -4px;    padding: 11px 24px;}
+footer{padding: 24px; background-color: #232323;color: #ffffff;}
+footer a{color: #ffffff;text-decoration: underline;}
+footer a:hover{ color: #ffffff;text-decoration: none; opacity: .2;}
+footer .link{ margin-left: 25px; color: #ffffff; text-decoration: underline;}
+footer .link:hover{ text-decoration: none; opacity: .2;}
 /* #Page Styles
 ================================================== */
 
